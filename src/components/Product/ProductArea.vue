@@ -26,7 +26,7 @@ export default {
 
     <div class="meta">
       <h2 class="category">PERFUME</h2>
-      <h1 class="title">Gabrielle Essence Eau<br/>De Parfum</h1>
+      <h1 class="title">Gabrielle Essence Eau De Parfum</h1>
       <p class="description">
         A floral, solar and voluptuous interpretation composed by Oliver Polge,
         Perfumer-Creator for the House of CHANEL.
