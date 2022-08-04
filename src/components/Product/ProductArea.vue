@@ -20,7 +20,10 @@ export default {
 
 <template>
   <div class="wrapper">
-    <img class="image" :src="image" alt="">
+    <div class="image">
+      <img :src="image" alt="">
+    </div>
+
     <div class="meta">
       <h2 class="category">PERFUME</h2>
       <h1 class="title">Gabrielle Essence Eau<br/>De Parfum</h1>
