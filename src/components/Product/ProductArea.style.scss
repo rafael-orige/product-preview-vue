@@ -1,0 +1,62 @@
+.wrapper {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  height: 480px;
+  width: 650px;
+  overflow: hidden;
+
+  .image {
+    height: 100%;
+    width: 50%;
+  }
+}
+
+.meta {
+  padding: 40px;
+  width: 50%;
+
+  .category {
+    color: #898c95;
+    font-size: 0.8rem;
+    font-weight: 300;
+    letter-spacing: 5px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .title {
+    font-size: 2.3rem;
+    font-family: 'Fraunces';
+    font-weight: 700;
+    margin: 15px 0;
+  }
+
+  .description {
+    color: #898c95;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  div {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    .price {
+      margin: 0;
+      color: #37735f;
+      font-family: 'Fraunces';
+      font-weight: 800;
+    }
+
+    .discount {
+      color: #898c95;
+      font-size: 0.8rem;
+      font-weight: 300;
+      margin-right: 60px;
+      text-decoration: line-through;
+    }
+  }
+}
